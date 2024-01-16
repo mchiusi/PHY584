@@ -46,7 +46,7 @@ When you are there you should run this three commands to make `ROOT` available i
 
 Open a Jupyter notebook:
 
-  notebook
+  `notebook`
 
 this should promptyou a link of this kind:
 
