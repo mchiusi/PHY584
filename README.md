@@ -42,15 +42,11 @@ from there connect to the working machine:
 
 When you are there you should run this three commands to make `ROOT` available inside your working area:
 
-  `module use /opt/exp_soft/vo.llr.in2p3.fr/modulefiles_el7`
-
-  `module load python/3.7.0`
-
-  `source /opt/exp_soft/llr/root/v6.14.04-el7-gcc71-py37/bin/thisroot.sh`
+  `conda activate py37`
 
 Open a Jupyter notebook:
 
-  `jupyter-notebook --no-browser --ip 134.158.128.183`
+  `jupyter notebook --ip=`hostname` --no-browser`
 
 this should promptyou a link of this kind:
 
